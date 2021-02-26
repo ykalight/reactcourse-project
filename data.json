@@ -1,0 +1,40 @@
+[
+    { 
+        "car" : "2017 Ford Mustang GT",
+        "note" : "5w30 6qts",
+        "service" : [
+            {
+                "date" : "2017 Aug",
+                "miles" : "2,000",
+                "description" : "oil change",
+                "location" : "diy",
+                "price" : "$20",
+                "note" : "5w30"
+            },
+            {
+                "date" : "2017 Oct",
+                "miles" : "6,000",
+                "description" : "oil change",
+                "location" : "diy",
+                "price" : "$20",
+                "note" : "5w30"
+            },
+            {
+                "date" : "2018 Feb",
+                "miles" : "8,300",
+                "description" : "TPMS sensor replace",
+                "location" : "Warranty",
+                "price" : "",
+                "note" : "Dealer"
+            },
+            {
+                "date" : "2018 Mar",
+                "miles" : "9,900",
+                "description" : "oil change",
+                "location" : "diy",
+                "price" : "$20",
+                "note" : "5w30"
+            }
+        ]
+    }
+]

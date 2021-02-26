@@ -1,0 +1,106 @@
+@import-normalize;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+    background-color: #324564;
+    padding: 20px 40px;
+    color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    color: rgb(161, 209, 248);
+    text-decoration: none;
+    margin-left: 40px;
+}
+nav #logotxt1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+nav #logotxt2 {
+    font-size: 2em;
+}
+nav #logotxt3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper {
+    padding: 40px;
+    text-align: left;
+}
+h2 {
+    color: #555;
+    font-weight: normal;
+    font-size: 2.2em;
+    margin: 0
+}
+.barbt {
+    color: #31508a;
+    border-radius: 22px;
+    padding: 12px 2em;
+    border: solid 1px #ccc
+}
+table.services {
+    width: 100%;
+    margin: 20px 0
+}
+table.services th{
+    background-color: #dee6f5;
+}
+table.services th, table.services td{
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    color: #555
+}
+table.services td.edit{
+    text-align: center;
+}
+td a {
+    color: rgb(71, 120, 160);
+    text-decoration: none;
+}
